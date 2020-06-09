@@ -12,53 +12,48 @@ print(f"0 1 '*' 2 3 5 '*' 13 21 '*' 55")
 number = input("1st number: ")
 if number == "1":
     print(f"True!\n{point} pts!!\n")
-elif number != "1":
+else:
     print("False!\n")
 
 number = input("2nd number: ")
 if number == "8":
     print(f"True!\n{point} pts!!\n")
-elif number != "8":
+else:
     print("False!\n")
 
 number = input("3rd Number: ")
 if number == "34":
     print(f"True!\n{point} pts!!\n")
-elif number != "34":
+else:
     print("False!\n")
 
 print(f"Congratulations! Game is complete.")
 
 print("*" *50)
-
+input('*****Press ENTER to start new game*****')
+print("*" *50)
 print("Lets start new games")
 
 print("Q1.Where is the capital of Turkey?")
 answer = input("Your answer: ")
-if answer == "Ankara":
+if (answer == "Ankara") or (answer == "ankara"):
     print(f"True!\n{point} pts!!\n")
-elif answer == "ankara":
-    print(f"True!\n{point} pts!!\n")
-elif answer != "Ankara, ankara":
+else:
     print("False!\n")
 
 print("Q2.Which team won the UEFA trophy in 2000?")
 answer = input("Your answer: ")
-if answer == "Galatasaray":
+if (answer == "Galatasaray") or (answer == "galatasaray"):
     print(f"True!\n{point} pts!!\n")
-elif answer == "galatasaray":
-    print(f"True!\n{point} pts!!\n")
-elif answer != "Galatasaray":
+else:
     print("False!\n")
 
 print("Q3.Which is not an element?")
 print("a.nitrogen\nb.water\nc.oxygen")
 answer = input("Your answer: ")
-if answer == "water":
+if (answer == "water") or (answer == "b") or (answer == "Water"):
     print(f"True!\n{point} pts!!\n")
-elif answer == "b":
-    print(f"True!\n{point} pts!!\n")
-elif answer != "water":
+else:
     print("False!\n")
 print(f"Congratulations! All games are complete.")
 
